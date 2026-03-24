@@ -4,9 +4,9 @@ import Image from "next/image";
 
 const stats = [
   { number: "500+", label: "Vehículos atendidos" },
-  { number: "4.9★", label: "Calificación promedio" },
   { number: "3+", label: "Años de experiencia" },
-  { number: "100%", label: "Clientes satisfechos" },
+  { number: "★", label: "Atención al detalle" },
+  { number: "✔", label: "Resultados que se notan" },
 ];
 
 const perks = [
@@ -91,7 +91,7 @@ export default function Hero() {
               marginBottom: 16,
             }}
           >
-            Lavado &amp; Detailing
+            Cuidado premium para tu carro
           </div>
 
           {/* Title — Bebas Neue for drama */}
@@ -149,8 +149,8 @@ export default function Hero() {
             <span style={{ color: "rgba(255,255,255,0.75)", fontWeight: 400 }}>
               Melo Auto Club
             </span>{" "}
-            llevamos tu vehículo a otro nivel con lavado y detailing profesional
-            en Pasto. Resultados que se notan desde la primera visita.
+            nos gusta ver los carros impecables.
+            Nos tomamos el tiempo para que el tuyo se vea como nuevo.
           </p>
 
           {/* Single CTA — no duplicate floating button */}
@@ -183,7 +183,7 @@ export default function Hero() {
               }}
             >
               <WhatsAppIcon size={18} />
-              Agendar por WhatsApp
+              Quiero agendar
             </a>
           </div>
 
@@ -198,7 +198,7 @@ export default function Hero() {
               paddingLeft: 4,
             }}
           >
-            Respuesta en menos de 10 min · Sin costo
+            Te respondemos rápido • Sin compromiso
           </p>
 
           {/* Perks */}
