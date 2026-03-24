@@ -4,7 +4,6 @@ import Services from "@/components/Services";
 import SocialProof from "@/components/SocialProof";
 import CtaFinal from "@/components/CtaFinal";
 import Footer from "@/components/Footer";
-import WhatsAppFloat from "@/components/WhatsAppFloat";
 import ScrollAnimator from "@/components/ScrollAnimator";
 
 export default function Home() {
@@ -18,8 +17,6 @@ export default function Home() {
         <CtaFinal />
       </main>
       <Footer />
-      <WhatsAppFloat />
-      {/* Activates .fade-up elements on scroll */}
       <ScrollAnimator />
     </>
   );
